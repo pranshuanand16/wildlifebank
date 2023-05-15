@@ -1,0 +1,60 @@
+--- 
+title: "Report an Incident"
+output: html_document
+draft: false 
+
+banner:
+  title : "Report the animal you spot in this form"
+  content : "Click on the location where this incident happened and answer these questions"
+    
+
+
+form:  
+  name: "report"
+  id: "report"
+  customSuccessPage: /report/report-confirmation
+    
+RequiredQuestions: 
+  - fieldType: text
+    name: Please enter your name
+    id: descript
+    markUp: Name
+    
+
+        
+  
+  - fieldType: date
+    name: date of incident
+    markUp: On what date did you spot the specie?
+    id: date
+  
+  - fieldType: time
+    name: time of incident
+    markUp: At what time did you spot the specie?
+    id: time
+  
+  - fieldType: file
+    name: filename
+    markUp: Upload Spot Image
+    id: myfile
+   
+         
+
+
+  
+notRequired:
+  - fieldType: tel
+    name: Please enter your mobile number
+    markUp: Mobile Number
+
+  - fieldType: email
+    name: Please enter your email id
+    id: email
+    markUp: email id 
+  
+
+  
+---
+
+
+
