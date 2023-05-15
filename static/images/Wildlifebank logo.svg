@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Wildlife_Bank.ORG" data-name="Wildlife Bank.ORG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792.86475 283.28027">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Montserrat-Black, Montserrat;
+        font-size: 144.60535px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #00ff06;
+      }
+
+      .cls-3 {
+        letter-spacing: -.005em;
+      }
+
+      .cls-4 {
+        letter-spacing: .00499em;
+      }
+
+      .cls-5 {
+        letter-spacing: .00999em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01999em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(42.58984 122.91309)"><tspan x="0" y="0"> </tspan><tspan class="cls-4" x="43.37988" y="0">W</tspan><tspan x="218.49463" y="0">ildli</tspan><tspan class="cls-3" x="508.99854" y="0">f</tspan><tspan x="569.87744" y="0">e </tspan><tspan x="-42.58984" y="122.91406">Ban</tspan><tspan class="cls-5" x="263.10352" y="122.91406">k</tspan><tspan class="cls-6" x="367.65186" y="122.91406">.</tspan><tspan class="cls-2" x="408.71924" y="122.91406">ORG</tspan></text>
+</svg>
