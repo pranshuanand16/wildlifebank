@@ -1,0 +1,94 @@
+
+baseurl: /
+languageCode: en-us
+title: Wildlife Bank
+theme: "default"
+googleAnalytics: 'G-SC10M5SL96'
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+  - \.qmd$
+  - \.py$
+  - Dockerfile
+  - \.dockerignore
+  
+
+ 
+menu:
+  main:
+    - name: Activities, Motivations
+    
+    - name: Why do what we do?
+      parent: Activities, Motivations
+      url: /why
+      weight: 1
+    - name: Contact Us
+      parent: Activities, Motivations
+      url: /contact/
+      weight: 3
+    - name: Read more on our Blog
+      parent: Activities, Motivations
+      url: 
+      weight: 4
+    
+    
+    
+    - name: Community Projects
+    
+    - name: Community Mapping
+      url: /community-mapping/
+      parent: Community Projects
+      weight: 2
+    - name: Giving Names To The Animals
+      url: /Image Recignition Modal/
+      parent: Community Projects
+      weight: 1
+   
+    
+
+  footer_left:
+      - name: Contact Us
+        url: /contact/
+      - name: Find collated reports for download here
+        url: /collated-reports
+      - name: Read our blog here
+        url: 
+  footer_middle:
+      - name: Follow our Twitter
+        url: 
+      - name: Read the work in progress documentation at our Github
+        url: 
+      - name: Instagram
+        url: https://www.instagram.com/pranshuanand16/
+    
+  
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: Mapping wildlife data of india
+  favicon: "/images/faviconLogo.ico"
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo: "images/logo.svg"
+  logo_width: "100px"
+  navigation_button:
+      enable: true
+      label: "Report Incident"
+      link: "/report"
+  variables:
+    primary_color: "#FFD815"
+    text_color: "#555"
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+
